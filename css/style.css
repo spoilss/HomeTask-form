@@ -1,0 +1,282 @@
+ /* general */
+ @font-face {
+	 font-family: 'DroidSans-Bold';
+	 src: url('DroidSans-Bold.eot') format('embedded-opentype');
+	 font-weight: normal;
+	 font-style: normal;
+ }
+ @font-face {
+	 font-family: 'DroidSans';
+	 src: url('DroidSans.eot') format('embedded-opentype');
+	 font-weight: normal;
+	 font-style: normal;
+ }
+
+
+
+
+ body{
+font-size:20px;
+	 font-family: 'DroidSans';
+	width: 485px;
+	height: 691px;
+	background: white;
+	margin: 0 auto;
+	outline: 2px solid #000;
+	padding: 10px;
+}
+
+ .container{
+	 overflow: hidden;
+ }
+
+ .first {
+
+	 width:175px;
+	 height: 641px;
+	 text-align: left;
+	 display: inline-block;
+	 box-sizing: border-box;
+ }
+
+ .second {
+	 display: inline-block;
+	 box-sizing: border-box;
+	 width: 285px;
+	 height: 641px;
+	 text-align: left;
+	 margin-left: 5px;
+ }
+
+ .first.line{
+
+ }
+ .second.line{
+
+ }
+
+
+ .line{
+	 font-family: 'DroidSans-Bold';
+	 font-size: 12px;
+	 font-weight: 500 ;
+	 color:#006cb4;
+
+ }
+ .line:after{
+	 content: '';
+	 width: 100%;
+	 height: 3px;
+	 background: #006cb4;
+	 border: solid #FFF;
+	 border-width: 0 3px;
+	 margin-right: -100%;
+	 vertical-align: middle;
+	 display: inline-block;
+	 box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+ }
+ .round {
+
+	vertical-align: top;
+	 margin-left: 40px;
+
+ }
+ .h1{
+	font-size: 14px;
+	 font-weight: 100 ;
+	 text-align: center;
+	 font-family: 'DroidSans-Bold';
+ }
+ .h2{
+	 font-family: 'DroidSans-Bold';
+	 font-size: 14px;
+	 font-weight: 900 ;
+	 text-align: center;
+ }
+ .p1{
+	 font-size: 7px;
+	 text-align: center;
+ }
+ i{
+	 margin-right: 4px;
+	 color: #006cb4;
+ }
+ .fa.fa-binoculars {
+
+	 font-size: 15px;
+
+ }
+ .fa.fa-phone {
+	 font-size: 20px;
+ }
+ .fa.fa-diamond{
+	 font-size: 20px;
+ }
+
+ .blue i{
+	 position: relative;
+	 font-size: 7px;
+	 color: #006cb4;
+	 margin-right: 1px;
+	 z-index: 10;
+ }
+ .grey i{
+
+	 font-size: 7px;
+	 color: #e7e7e7;
+	 margin-right: 1px;
+	 z-index: 1;
+	 margin-top: -51px;
+
+
+ }
+ .skills1{
+	 margin-top: -30px;
+	 margin-bottom: -65px;
+ }
+
+
+ .text{
+	 font-size: 3px;
+	 text-align: left;
+
+ }
+
+
+
+ .contact{
+	 display: inline-block;
+	 font-size: 6px;
+	 text-align: left;
+	 color: #006cb4;
+	 font-family: 'DroidSans-Bold';
+	 font-weight: 900 ;
+ }
+ .colomn2{
+	color:black;
+	 font-size: 4px;
+	 margin-left: 20px;
+	 line-height: 240%;
+ }
+
+ .skills{
+	 font-size: 7px;
+	 color: black;
+	 text-align: center;
+ }
+ .master{
+	 font-size: 7px;
+	 color: #006cb4;
+	 font-weight: 900 ;
+
+ }
+ .master:after{
+	 content: '//Feb 2011 -Jun 2014';
+	font-size: 7px;
+	 color:black;
+
+
+	 display: inline-block;
+	 box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+ }
+ .univer{
+	 font-size: 7px;
+	 color: black;
+	 font-weight: 900 ;
+ }
+ .marginleft{
+	 margin-left: -22px;
+ }
+ .master1{
+	 font-size: 7px;
+	 color: black;
+	 font-weight: 900 ;
+ }
+ .master1:after{
+	 content: '//Feb 2011 -Jun 2014';
+	 font-size: 7px;
+	 color:black;
+
+
+	 display: inline-block;
+	 box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+ }
+
+ .software{
+
+	 font-size: 7px;
+	 font-weight: 700;
+	 /*text-align: left;*/
+ }
+
+
+
+ .soft1{
+	 display: inline-block;
+ }
+ .soft2{
+	 display: inline-block;
+	 margin-left: 33px;
+ }
+
+
+
+
+ .greybar1{
+	   content: '';
+	   width: 100px;
+	   height: 9px;
+	   background: #006cb4;
+	   vertical-align: middle;
+
+   }
+
+ .bluebar1{
+	 content: '';
+	 width: 110px;
+	 height: 9px;
+	 background: #e7e7e7;
+	 vertical-align: middle;
+
+ }
+
+ .greybar2{
+	 content: '';
+	 width: 80px;
+	 height: 9px;
+	 background: #006cb4;
+	 vertical-align: middle;
+
+ }
+
+ .bluebar2{
+	 content: '';
+	 width: 110px;
+	 height: 9px;
+	 background: #e7e7e7;
+	 vertical-align: middle;
+
+ }
+
+ .greybar3{
+	 content: '';
+	 width: 65px;
+	 height: 9px;
+	 background: #006cb4;
+	 vertical-align: middle;
+
+ }
+
+ .bluebar3{
+	 content: '';
+	 width: 110px;
+	 height: 9px;
+	 background: #e7e7e7;
+	 vertical-align: middle;
+
+ }
+
+
